@@ -1,0 +1,46 @@
+@use 'colors';
+
+//! === === === === === Sidebar
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 300px;
+	background-color: colors.$blue-400;
+	padding-top: 40px;
+
+	.sidebar__container {
+		position: relative;
+		margin-inline: auto;
+		width: 200px;
+
+		.logo__sidebar {
+			width: 60px;
+			height: 60px;
+			display: block;
+			position: inherit;
+			margin-inline: inherit;
+		}
+
+		h1 {
+			color: colors.$white;
+			font-size: 32px;
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+
+		li {
+			padding: 20px;
+
+			a {
+				color: colors.$white;
+				text-decoration: none;
+				font-size: 16px;
+
+				&:hover {
+					color: colors.$yellow-200;
+				}
+			}
+		}
+	}
+}

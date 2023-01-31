@@ -1,0 +1,10 @@
+@use 'bootstrap';
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	color: bootstrap.$gray-400;
+}
+
+a {
+	transition: 0.5s;
+}
