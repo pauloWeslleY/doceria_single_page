@@ -1,0 +1,22 @@
+@use 'colors';
+
+//? NOTE: Content Styles
+.main__content {
+	position: absolute;
+	left: 300px;
+	width: calc(100% - 300px);
+
+	h1,
+	h2 {
+		color: colors.$blue-400;
+		margin-bottom: 30px;
+	}
+
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+}

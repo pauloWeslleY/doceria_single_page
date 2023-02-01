@@ -1,0 +1,8 @@
+@use 'colors';
+
+@mixin section_after {
+	content: '';
+	display: block;
+	clear: both;
+	margin-bottom: 100px;
+}
