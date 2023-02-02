@@ -1,0 +1,62 @@
+@use 'colors';
+
+#form_contact {
+	width: 500px;
+
+	input[type='email'],
+	input[type='text'],
+	textarea {
+		display: block;
+		border: 1px solid colors.$blue-400;
+		padding: 10px;
+		margin-bottom: 20px;
+		width: 100%;
+		font-size: 16px;
+		font-family: 'Open Sans', sans-serif;
+
+		&:focus {
+			border-color: colors.$blue-200;
+		}
+
+		&:focus-visible {
+			outline: none;
+		}
+
+		&::placeholder {
+			color: colors.$blue-200;
+		}
+	}
+
+	input[type='submit'] {
+		width: 180px;
+
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 16px;
+		font-weight: bold;
+
+		margin-left: 0;
+		padding: 10px;
+
+		border: 1px solid colors.$blue-400;
+		border-radius: 5px;
+
+		color: colors.$white;
+		background-color: colors.$blue-200;
+
+		cursor: pointer;
+
+		transition: all 0.5s ease-in 60ms;
+
+		&:hover {
+			color: colors.$blue-400;
+			background-color: colors.$white;
+
+			transform: rotate(2deg);
+		}
+	}
+
+	textarea {
+		height: 150px;
+	}
+}

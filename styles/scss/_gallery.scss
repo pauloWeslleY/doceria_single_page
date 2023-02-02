@@ -1,0 +1,80 @@
+// ! TODO: Gallery
+
+#section_candys1,
+#section_candys2,
+#section_candys3 {
+	padding-right: 50px;
+	margin-bottom: 50px;
+
+	.banner__gallery {
+		background-position: center;
+		background-size: cover;
+		display: inline-block;
+		height: 200px;
+	}
+}
+
+#section_candys1 {
+	.section__image_candys1 {
+		width: 18.8%;
+		margin-inline: 0.5%;
+	}
+
+	#image1 {
+		background-image: url('../../img/galeria1.jpg');
+		margin-left: 0;
+	}
+	#image2 {
+		background-image: url('../../img/galeria2.jpg');
+	}
+	#image3 {
+		background-image: url('../../img/galeria3.jpg');
+	}
+	#image4 {
+		background-image: url('../../img/galeria4.jpg');
+	}
+	#image5 {
+		background-image: url('../../img/galeria5.jpg');
+		margin-right: 0;
+	}
+}
+
+#section_candys2 {
+	.section__image_candys2 {
+		width: 32.3%;
+		margin-inline: 0.5%;
+	}
+
+	#image6 {
+		background-image: url('../../img/galeria6.jpg');
+		margin-left: 0;
+	}
+	#image7 {
+		background-image: url('../../img/galeria7.jpg');
+	}
+	#image8 {
+		background-image: url('../../img/galeria8.jpg');
+		margin-right: 0;
+	}
+}
+
+#section_candys3 {
+	.section__image_candys3 {
+		width: 23.9%;
+		margin-inline: 0.5%;
+	}
+
+	#image9 {
+		background-image: url('../../img/galeria9.jpg');
+		margin-left: 0;
+	}
+	#image10 {
+		background-image: url('../../img/galeria10.jpg');
+	}
+	#image11 {
+		background-image: url('../../img/galeria11.jpg');
+	}
+	#image12 {
+		background-image: url('../../img/galeria12.jpg');
+	}
+}

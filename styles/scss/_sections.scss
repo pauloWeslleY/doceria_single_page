@@ -1,7 +1,24 @@
 @use 'colors';
 @use 'mixins';
 
-//* NOTE: Section Welcome
+//* NOTE: Sections
+#section_about {
+	padding-left: 50px !important;
+
+	.section__mini_banner {
+		background-image: url('../../img/banner4.jpg') !important;
+
+		float: right !important;
+		margin-right: 50px;
+	}
+
+	.section__description {
+		left: 25px !important;
+		width: calc(100% - 400px) !important;
+	}
+}
+
+#section_about,
 #section_welcome {
 	padding: 0;
 

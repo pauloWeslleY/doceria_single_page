@@ -1,0 +1,12 @@
+@use 'colors';
+
+footer {
+	height: 100px;
+	padding-top: colors.$blue-400;
+	color: colors.$blue-200;
+
+	p {
+		text-align: center;
+		font-weight: bold;
+	}
+}
